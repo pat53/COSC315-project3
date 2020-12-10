@@ -32,7 +32,10 @@ int main(int argc, char *argv[]){
     int test_page = address / ((int) y + 1);
     int test_offset = address % ((int) y + 1);
 
+    //print results
     printf("virtual address %u is in page number %u and offset %u\n", address, pageNum, offset);
+
+    //print test results
     printf("Expeted page Number: %u\n", test_page);
     printf("Expeted offset: %u\n", test_offset);
 
